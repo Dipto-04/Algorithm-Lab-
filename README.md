@@ -3,49 +3,56 @@ A structured collection of lab reports and problem solutions for CSE 232 – Alg
 
 
 💻 CSE 232 – Algorithmic Problem Solving
-কোর্সভিত্তিক ল্যাব ও অ্যাসাইনমেন্ট রিসোর্স
 
-এই রিপোজিটরিটি CSE 232 (Algorithms) কোর্সে সম্পন্ন করা সকল ল্যাব রিপোর্ট ও অ্যাসাইনমেন্ট সমস্যার একটি সংগৃহিত ডকুমেন্টেশন। প্রতিটি সমস্যা আলাদা ডিরেক্টরিতে সজ্জিত, যেখানে সমাধানের পাশাপাশি ব্যবহৃত অ্যালগরিদম, প্রয়োজনীয় ব্যাখ্যা এবং সংশ্লিষ্ট সিউডোকোড যুক্ত করা হয়েছে।
+Comprehensive Lab and Assignment Resource Collection
 
-উদ্দেশ্য হচ্ছে—সমস্ত কোর্সওয়ার্ককে এক জায়গায় পেশাদার ও সহজবোধ্য আকারে উপস্থাপন করা।
+This repository contains a complete set of lab reports and assignment solutions developed for the course CSE 232 (Algorithms). Each problem is organized into a dedicated directory, providing the solution alongside the applied algorithm, pseudocode, and relevant conceptual explanations.
 
-🔑 সমাধানের কাঠামো (Solution Framework)
+The objective of this repository is to present all coursework in a unified, professionally structured, and easily understandable format for both academic review and personal study.
 
-প্রতিটি সমস্যা নিজস্ব একটি ফোল্ডারের মধ্যে সাজানো হয়েছে, এবং প্রতিটি ফোল্ডারে রয়েছে:
+🔑 Solution Framework
 
-সমস্যার বিবরণ
+Every problem is placed in its own folder, and each folder includes:
 
-ব্যবহৃত অ্যালগরিদমের সারাংশ
+A summary of the problem statement
 
-সিউডোকোড
+The algorithmic approach used
 
-প্রাসঙ্গিক নোট ও বিশ্লেষণ
+Complete pseudocode
 
-📋 সমস্যা সূচি (Problem Index)
+Additional notes, insights, or constraints
 
-নীচের টেবিলে প্রতিটি সমস্যার নাম, সংশ্লিষ্ট প্ল্যাটফর্ম, ব্যবহৃত অ্যালগরিদম এবং সমাধানের ফোল্ডারের পথ উল্লেখ করা হয়েছে।
+Implementation details where applicable
 
-রিপোর্ট	সমস্যার নাম	প্ল্যাটফর্ম	ব্যবহৃত অ্যালগরিদম	সমাধানের ফোল্ডার
-| রিপোর্ট | সমস্যার নাম         | প্ল্যাটফর্ম  | ব্যবহৃত অ্যালগরিদম      | সমাধানের ফোল্ডার                    |
-| ------- | ------------------- | ------------ | ----------------------- | ----------------------------------- |
-| Lab 1   | Bicoloring          | Online Judge | BFS (Graph Bipartition) | BFS-Problems/Bicoloring             |
-| Lab 1   | Risk                | Online Judge | BFS (Shortest Path)     | BFS-Problems/Risk                   |
-| Lab 1   | Knight Moves        | Online Judge | BFS on Grid             | BFS-Problems/KnightMoves            |
-| Lab 2   | Dijkstra?           | Codeforces   | Dijkstra’s Algorithm    | Dijkstra-Problems/Dijkstra-Question |
-| Lab 2   | Not the Best        | LightOJ      | Modified Dijkstra       | Dijkstra-Problems/NotTheBest        |
-| Lab 3   | Warmholes (UVA 558) | Online Judge | Bellman–Ford Algorithm  | Bellman-Ford-Problems/UVA558        |
-| Lab 3   | Traffic (LOJ 1108)  | Online Judge | Bellman–Ford Algorithm  | Bellman-Ford-Problems/LOJ1108       |
+This ensures a consistent and well-organized documentation style across the repository.
 
-📝 অতিরিক্ত নোট
+📋 Problem Index
 
-প্রতিটি ফোল্ডারের README.md ফাইলে অন্তর্ভুক্ত রয়েছে:
+The table below lists the solved problems along with their platforms, algorithms, and directory paths.
 
-অ্যালগরিদমিক স্ট্র্যাটেজি
+Report	Problem Name	Platform	Algorithm Used	Solution Folder
+| Report | Problem Name        | Platform     | Algorithm Used          | Solution Folder                       |
+| ------ | ------------------- | ------------ | ----------------------- | ------------------------------------- |
+| Lab 1  | Bicoloring          | Online Judge | BFS (Graph Bipartition) | `BFS-Problems/Bicoloring`             |
+| Lab 1  | Risk                | Online Judge | BFS (Shortest Path)     | `BFS-Problems/Risk`                   |
+| Lab 1  | Knight Moves        | Online Judge | BFS on Grid             | `BFS-Problems/KnightMoves`            |
+| Lab 2  | Dijkstra?           | Codeforces   | Dijkstra’s Algorithm    | `Dijkstra-Problems/Dijkstra-Question` |
+| Lab 2  | Not the Best        | LightOJ      | Modified Dijkstra       | `Dijkstra-Problems/NotTheBest`        |
+| Lab 3  | Warmholes (UVA 558) | Online Judge | Bellman–Ford Algorithm  | `Bellman-Ford-Problems/UVA558`        |
+| Lab 3  | Traffic (LOJ 1108)  | Online Judge | Bellman–Ford Algorithm  | `Bellman-Ford-Problems/LOJ1108`       |
 
-সিউডোকোড
+📝 Additional Notes
 
-মন্তব্যসহ বিশ্লেষণ
+Each solution directory includes a README.md with:
 
-প্রয়োজনে টাইম কমপ্লেক্সিটি
+A concise explanation of the algorithm
 
-রিপোজিটরির সামগ্রিক বিন্যাস "Algorithmic Problem Solving" কোর্সের স্ট্যান্ডার্ড নির্দেশিকা অনুসরণ করে প্রস্তুত করা হয়েছে।
+Step-by-step pseudocode
+
+Analytical commentary
+
+Time complexity (when relevant)
+
+Implementation considerations
+
+The organization and documentation style follow the academic standards for “Algorithmic Problem Solving” coursework.
