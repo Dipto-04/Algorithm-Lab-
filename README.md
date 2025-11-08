@@ -34,13 +34,13 @@ The objective of this repository is to present all coursework in a unified, prof
 Report	Problem Name	Platform	Algorithm Used	Solution Folder
 | Report | Problem Name        | Platform     | Algorithm Used          | Solution Folder                       |
 | ------ | ------------------- | ------------ | ----------------------- | ------------------------------------- |
-| Lab 1  | Bicoloring          | Online Judge | BFS (Graph Bipartition) | `BFS-Problems/Bicoloring`             |
-| Lab 1  | Risk                | Online Judge | BFS (Shortest Path)     | `BFS-Problems/Risk`                   |
-| Lab 1  | Knight Moves        | Online Judge | BFS on Grid             | `BFS-Problems/KnightMoves`            |
-| Lab 2  | Dijkstra?           | Codeforces   | Dijkstra’s Algorithm    | `Dijkstra-Problems/Dijkstra-Question` |
-| Lab 2  | Not the Best        | LightOJ      | Modified Dijkstra       | `Dijkstra-Problems/NotTheBest`        |
-| Lab 3  | Warmholes (UVA 558) | Online Judge | Bellman–Ford Algorithm  | `Bellman-Ford-Problems/UVA558`        |
-| Lab 3  | Traffic (LOJ 1108)  | Online Judge | Bellman–Ford Algorithm  | `Bellman-Ford-Problems/LOJ1108`       |
+| Lab 1  | [Bicoloring](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=945)          | Online Judge | BFS (Graph Bipartition) | `BFS-Problems/Bicoloring`             |
+| Lab 1  | [Risk ](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=508)               | Online Judge | BFS (Shortest Path)     | `BFS-Problems/Risk`                   |
+| Lab 1  | [Knight Moves ](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=380)       | Online Judge | BFS on Grid             | `BFS-Problems/KnightMoves`            |
+| Lab 2  | [Dijkstra? ](https://codeforces.com/contest/20/problem/C)          | Codeforces   | Dijkstra’s Algorithm    | `Dijkstra-Problems/Dijkstra-Question` |
+| Lab 2  | [Not the Best   ](https://lightoj.com/problem/not-the-best)     | LightOJ      | Modified Dijkstra       | `Dijkstra-Problems/NotTheBest`        |
+| Lab 3  | [Warmholes (UVA 558)](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=499) | Online Judge | Bellman–Ford Algorithm  | `Bellman-Ford-Problems/UVA558`        |
+| Lab 3  | [Traffic (LOJ 1108) ](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1390) | Online Judge | Bellman–Ford Algorithm  | `Bellman-Ford-Problems/LOJ1108`       |
 
 📝 Additional Notes
 
