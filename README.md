@@ -12,23 +12,17 @@ The objective of this repository is to present all coursework in a unified, prof
 
 🔑 Solution Framework
 
-Every problem is placed in its own folder, and each folder includes:
-
-A summary of the problem statement
-
-The algorithmic approach used
-
-Complete pseudocode
-
-Additional notes, insights, or constraints
-
-Implementation details where applicable
-
-This ensures a consistent and well-organized documentation style across the repository.
+->  Every problem is placed in its own folder, and each folder includes:
+->  A summary of the problem statement
+->  The algorithmic approach used
+->  Complete pseudocode
+->  Additional notes, insights, or constraints
+->  Implementation details where applicable
+->  This ensures a consistent and well-organized documentation style across the repository.
 
 📋 Problem Index
 
-The table below lists the solved problems along with their platforms, algorithms, and directory paths.
+->  The table below lists the solved problems along with their platforms, algorithms, and directory paths.
 
 Report	Problem Name	Platform	Algorithm Used	Solution Folder
 | Report | Problem Name        | Platform     | Algorithm Used          | Solution Folder                       |
@@ -43,16 +37,10 @@ Report	Problem Name	Platform	Algorithm Used	Solution Folder
 
 📝 Additional Notes
 
-Each solution directory includes a README.md with:
-
-A concise explanation of the algorithm
-
-Step-by-step pseudocode
-
-Analytical commentary
-
-Time complexity (when relevant)
-
-Implementation considerations
-
-The organization and documentation style follow the academic standards for “Algorithmic Problem Solving” coursework.
+->  Each solution directory includes a README.md with:
+->  A concise explanation of the algorithm
+->  Step-by-step pseudocode
+->  Analytical commentary
+->  Time complexity (when relevant)
+->  Implementation considerations
+->  The organization and documentation style follow the academic standards for “Algorithmic Problem Solving” coursework.
