@@ -1,4 +1,5 @@
 ♞ Knight Moves (BFS on a 2D Grid) — Shortest Path for a Knight
+
 🔍 Problem Description
 
 The objective of the Knight Moves problem is to compute the minimum number of moves a knight requires to travel from square A to square B on a standard 8×8 chessboard.
@@ -14,6 +15,7 @@ Cost	Each move has equal cost (1 step)
 Given that all edges have uniform weight, the most suitable algorithm for computing the shortest path is Breadth-First Search (BFS).
 
 🧠 Why Use BFS?
+
 
 Breadth-First Search (BFS) explores graph layers level-by-level, using a queue.
 Because BFS always explores all nodes at distance k before nodes at distance k + 1, it guarantees the shortest path in any unweighted graph.
@@ -34,25 +36,34 @@ The moment the destination square is first reached, we have found the minimum nu
 
 Before applying BFS, we define how a knight moves on a chessboard.
 
+
 ♘ Knight’s 8 Possible Moves
 
 From any position (r, c), a knight can move to up to eight valid squares:
 
 
 (r-2, c+1), (r-2, c-1)
+
 (r-1, c+2), (r-1, c-2)
+
 (r+1, c+2), (r+1, c-2)
+
 (r+2, c+1), (r+2, c-1)
+
 
 Code Representation
 
 int dr[8] = { 2,  2, -2, -2,  1,  1, -1, -1 };
+
 int dc[8] = { 1, -1,  1, -1,  2, -2,  2, -2 };
 
 
 Looping from 0 to 7,
+
 newR = r + dr[i]
+
 newC = c + dc[i]
+
 computes all possible moves from (r, c).
 
 🧩 Required Data Structures
