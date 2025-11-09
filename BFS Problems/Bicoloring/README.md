@@ -1,44 +1,43 @@
-Bicoloring (BFS-Based) Problem Analysis
-Problem Overview: Graph Bicoloring
+🌟 Bicoloring (BFS) – Problem Analysis
 
-The objective of the graph bicoloring problem is to determine whether a given graph can be colored using exactly two colors (e.g., White and Black) such that no two adjacent vertices share the same color. In formal terms, we must verify whether the graph is bipartite.
 
-Core Concept: Bipartite Graph
 
-A graph is considered bipartite if its vertices can be partitioned into two disjoint sets (Set A and Set B) such that every edge connects a vertex in Set A to a vertex in Set B. This equivalently means the graph can be colored with two colors without any adjacent vertices having identical colors.
 
-When Is Bicoloring Not Possible?
 
-A graph cannot be bicolored if and only if it contains an odd-length cycle.
-Example: A triangle (cycle of length 3) is not bicolorable. Once two vertices are assigned opposite colors, the third vertex inevitably conflicts because it becomes adjacent to two vertices with different required colors.
 
-Solution Strategy: Breadth-First Search (BFS)
 
-BFS is an efficient method for checking whether the graph can be bicolored. During traversal, each vertex is assigned a color (0 or 1), and we verify that no adjacent vertices share the same color.
 
-Algorithm Steps
+✅ Overview
 
-Initialization: Mark all vertices as Uncolored (value = -1).
+The Graph Bicoloring Problem determines whether a graph can be colored using two colors such that no two adjacent vertices share the same color. This is equivalent to checking whether the graph is bipartite.
 
-Start BFS: Assign color 0 to a starting vertex (e.g., vertex 0) and insert it into a queue.
+🔑 Key Concepts
 
-Traverse:
+A graph is bipartite if its vertices can be divided into two disjoint sets where all edges connect nodes from opposite sets.
 
-Dequeue a vertex u.
+Bicoloring fails when the graph contains an odd-length cycle.
 
-Determine the opposite color (1 - color[u]).
+BFS is an effective method for validating bipartite structure.
 
-For each neighbor v of u:
+🧭 When Bicoloring Fails
 
-If v is uncolored, assign the opposite color and enqueue it.
+Presence of any odd cycle (3-cycle, 5-cycle, etc.)
 
-If v already has the same color as u, a conflict is detected. This implies the presence of an odd cycle, and the graph is not bicolorable.
+Example: A triangle (3-cycle) cannot be colored using only two colors without conflict.
 
-Completion:
+🚀 BFS-Based Bicoloring Algorithm
 
-If the BFS completes without conflicts, the graph is bicolorable.
+Initialize all vertices as Uncolored (-1).
 
-Pseudocode
+Select a starting vertex and color it 0.
+
+Run BFS, assigning opposite colors (1 - color[u]) to adjacent vertices.
+
+If any adjacent vertices share the same color, report NOT bicolorable.
+
+If BFS completes without conflict, the graph is Bicolorable (Bipartite).
+
+📘 Pseudocode
 
 FUNCTION isBicolorable(n, adjList):
 
