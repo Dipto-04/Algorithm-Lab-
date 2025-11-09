@@ -6,6 +6,7 @@ The objective of the Knight Moves problem is to compute the minimum number of mo
 This can be modeled as a shortest path problem on an unweighted graph, where:
 
 Concept	Meaning
+
 Nodes	All 64 squares of the chessboard
 Edges	A legal knight move between two squares
 Cost	Each move has equal cost (1 step)
@@ -37,12 +38,14 @@ Before applying BFS, we define how a knight moves on a chessboard.
 
 From any position (r, c), a knight can move to up to eight valid squares:
 
+
 (r-2, c+1), (r-2, c-1)
 (r-1, c+2), (r-1, c-2)
 (r+1, c+2), (r+1, c-2)
 (r+2, c+1), (r+2, c-1)
 
 Code Representation
+
 int dr[8] = { 2,  2, -2, -2,  1,  1, -1, -1 };
 int dc[8] = { 1, -1,  1, -1,  2, -2,  2, -2 };
 
@@ -68,6 +71,8 @@ State Values
 | `2`   | Processed             |
 
 📘 Pseudocode
+
+
 FUNCTION KnightShortestPath(startR, startC, endR, endC):
 
     N = 8
